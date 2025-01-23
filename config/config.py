@@ -54,7 +54,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/Moonshining1/ANNIE-MUSIC", 
+    "https://github.com/arman786mariyam/Arman-Music", 
 )
 # iss link ko mt remove krna harmai ye management wlaa hai isme hi sub code hai management ke liye..
 # Fill here the external plugins repo where plugins that you want to load
@@ -77,7 +77,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7297381612").split())
+    map(int, getenv("OWNER_ID", "7992144554").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -90,7 +90,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Moonshining1/ANNIE-MUSIC",
+    "https://github.com/arman786mariyam/Arman-Music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -112,14 +112,14 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/Kittyxupdates"
-)  # Example:- https://t.me/VIP_CREATORS
+)  # Example:- https://t.me/ArmanCardar
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TG_FRIENDSS"
-)  # Example:- https://t.me/TG_FRIENDSS
+    "SUPPORT_GROUP", "https://t.me/Arman_Chats"
+)  # Example:- https://t.me/ArmanChatz
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/Grandxmasti"
-)  # Example:- https://t.me/Grandxmasti
+    "SUPPORT_GROUP", "https://t.me/Arman_Chats"
+)  # Example:- https://t.me/Arman_Chats
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
@@ -141,7 +141,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Moonshining1/ANNIE-MUSIC")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/arman786mariyam/Arman-Music")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -207,12 +207,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://files.catbox.moe/443htj.jpg",
+    "https://files.catbox.moe/0d3zjd.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg",
+    "https://files.catbox.moe/mq2h41.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -242,7 +242,7 @@ TELEGRAM_VIDEO_URL = getenv(
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://telegra.ph/file/e24f4a5f695ec5576a8f3.jpg",
+    "https://files.catbox.moe/0d3zjd.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
@@ -252,7 +252,7 @@ SOUNCLOUD_IMG_URL = getenv(
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://telegra.ph/file/76d29aa31c40a7f026d7e.jpg",
+    "https://files.catbox.moe/mq2h41.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
@@ -348,7 +348,7 @@ if TELEGRAM_AUDIO_URL:
 
 
 if STREAM_IMG_URL:
-    if STREAM_IMG_URL != "https://telegra.ph/file/e24f4a5f695ec5576a8f3.jpg":
+    if STREAM_IMG_URL != "https://files.catbox.moe/mq2h41.jpg":
         if not re.match("(?:http|https)://", STREAM_IMG_URL):
             print(
                 "[ERROR] - Your STREAM_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -364,7 +364,7 @@ if SOUNCLOUD_IMG_URL:
 
 
 if YOUTUBE_IMG_URL:
-    if YOUTUBE_IMG_URL != "https://telegra.ph/file/76d29aa31c40a7f026d7e.jpg":
+    if YOUTUBE_IMG_URL != "https://files.catbox.moe/0d3zjd.jpg":
         if not re.match("(?:http|https)://", YOUTUBE_IMG_URL):
             print(
                 "[ERROR] - Your YOUTUBE_IMG_URL url is wrong. Please ensure that it starts with https://"
